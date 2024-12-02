@@ -1,0 +1,347 @@
+#wholepage {
+    min-height: 100%;
+    position: relative;
+    height: auto !important;
+    height: 100%;
+}
+
+#head {
+    padding: 0px;
+}
+
+#body {
+    padding: 10px;
+    padding-bottom: 330px;
+}
+
+#foot {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+}
+
+.heading{
+  float: center;
+  text-align: center;
+  background-color: #ccd6db;
+  padding: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: normal;
+}
+
+
+.topnav {
+  background-color: #ccd6db;
+  padding: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: center;
+  padding: 15px;
+  color: #03324a;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: serif;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ccd6db;
+  color: black;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #ccd6db;
+  color: white;
+}
+
+h2{
+    font-size: 28px;
+    font-family: garamond;
+    font-weight: normal;
+}
+
+p{
+    float: center;
+    text-align: center;
+    width: 800px;
+    font-size: 20;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+.content{
+  position: relative;
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.content p{
+  max-width: 750px;
+  padding: 20px;
+  margin: auto;
+  word-wrap: break-word;
+  display: flex;
+}
+
+body {
+  margin: auto;
+  /*max-width: 600px;*/
+  text-align: center;
+  /*padding-bottom: 330px;*/ /*This used to help with footer being too up*/
+}
+img {
+    max-width: 100%;
+    height: auto;
+    resize: both;
+}
+.painting {
+    height: 1400px;
+    display: flex;
+}
+.left {
+    width: 580px;
+    /*height: auto;*/
+    margin-top: 20px;
+    float: left;
+    display: -webkit-box-flex;
+}
+.left >img {
+    margin-bottom: 20px;
+}
+.right {
+    width: 580px;
+    height: 95%;
+    margin-top: 20px;
+    background: #ccd6db;
+    float: right;
+    display: block;
+}
+.right p {
+    padding: 10px;
+    display: block;
+    width: 90%;
+    word-wrap: wrap;
+    text-align: justify;
+}
+
+.email-subscribe{
+    max-width: 1200px;
+    height: 220px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    background-color:#ccd6db;
+    font-size: 20px;
+}
+
+.narrow {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 500px;
+    float: center;
+    margin: auto;
+    margin-top: 0px;
+}
+.narrow p{
+    text-align: justify;
+    margin-top: 0px;
+    width: 500px;
+    color: #03324a;
+}
+.boundary{
+    width: 1075px;
+    margin: 0 auto;
+}
+.shipping {
+    float: left;
+    margin-top: 75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 500px;
+    background: #FFFFFF;
+}
+.returns {
+    float: right;
+    margin-top: 75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 500px;
+    background: #FFFFFF;
+}
+.boundary a{
+    padding: 10px;
+    color: #03324a;
+    text-decoration: none;
+    font-size: 25px;
+}
+.boundary a:hover{
+    color: #000000;
+}
+
+h3 {
+    padding-top: 30px;
+    font-size: 38px;
+    font-weight: normal;
+    color: #000000
+}
+
+h4 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #000000
+}
+
+.smallcontainer {
+    float: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    background-color: #ccd6db;
+    width: 400px;
+    height: 250px;
+}
+
+.container {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    margin: auto;
+    background-color: #ccd6db;
+    width: 300px;
+    font-size: 20px;
+    padding: 0px;
+}
+input[type=text] {
+    font-size: 18px;
+    font-family: serif;
+    width: 300px;
+    margin-bottom:10px
+}
+input[type=submit] {
+    font-size: 18px;
+    font-family: serif;
+    color:white;
+    border:none;
+}
+
+h5{
+    font-size: 18px;
+    font-weight: normal;
+}
+.row {
+    margin-top: 50px;
+    max-width: 1200px;
+    height: 300px;
+    display: flex;
+}
+.hover_img {
+    display: none;
+}
+.favourites1 {
+    width: 100%;
+    float: left;
+    margin-right: 25px;
+    margin-left: 100px;
+    resize: both;
+}
+.favourites1:hover .img1{
+    display: none;
+}
+.favourites1:hover .hover_img{
+    display: inherit;
+}
+.favourites2 {
+    float: center;
+    width: 100%;
+    margin-right: 25px;
+    margin-left: 25px;
+    resize: both;
+}
+.favourites2:hover .img1{
+    display: none;
+}
+.favourites2:hover .hover_img{
+    display: inherit;
+}
+.favourites3 {
+    float: right;
+    width: 100%;
+    margin-left: 25px;
+    margin-right: 100px;
+    resize: both;
+}
+.favourites3:hover .img1{
+    display: none;
+}
+.favourites3:hover .hover_img{
+    display: inherit;
+}
+
+.footer-outer {
+    z-index: 100;
+    float: bottom;
+    height: 300px;
+    width: 100%;
+    background: #ccd6db;
+    position: relative;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer {
+    z-index: 2;
+    height: 300px;
+    width: 900px;
+    background: #ccd6db;
+    margin: auto;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*text-align: center;*/
+    font-family: serif;
+}
+
+.footerpic{
+    width: 400px;
+    padding-top: 20px;
+    float: left;
+}
+
+.footerLinks {
+    width:500px;
+    padding-top: 50px;
+    float: right;
+    text-align: left;
+}
+.footerLinks li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.footerLinks a {
+    padding: 10px;
+    color: #03324a;
+    text-decoration: none;
+    font-size: 20px;
+}
+.footerLinks a:hover {
+    color: #000000;
+}
+
+.credit {
+    font-size: 16px;
+    font-weight: normal;
+    color: #03324a;
+}
